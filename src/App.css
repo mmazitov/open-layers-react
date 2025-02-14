@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background: #edf0f2;
+	display: inherit;
+}
+#root {
+	min-width: 1280px;
+	margin-block: auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.map {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 25px;
+	width: 100%;
+}
+
+.coordinate-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
