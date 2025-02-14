@@ -27,7 +27,7 @@ const OpenLayersMap = () => {
 		map.on('click', (event) => {
 			setClickedCoordinate(event.coordinate);
 		});
-		setOlMap(map);
+		setOlMap(olMap);
 
 		return () => {
 			map.setTarget(undefined);
